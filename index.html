@@ -4,118 +4,163 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spring 2025 Cybersecurity Schedule</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        th, td {
+            padding: 15px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #2c3e50;
+            color: white;
+        }
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            color: #2c3e50;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Spring 2025 Cybersecurity Schedule</h1>
-    </header>
 
-    <main>
-        <section>
-            <h2>Week 1 (Jan 22)</h2>
-            <p><strong>Topic:</strong> Introduction</p>
-            <p><strong>Sub-topic:</strong> Syllabus, Human-Centric Cybersecurity</p>
-            <p><strong>Reading:</strong> Pfleeger, S. L., & Caputo, D. D. (2012). Computers & Security, 31(4), 597-611.</p>
-        </section>
-
-        <section>
-            <h2>Week 2 (Jan 27 & 29)</h2>
-            <p><strong>Topic:</strong> Dynamic Decision Making</p>
-            <p><strong>Sub-topic:</strong> Process, Decision Making Biases</p>
-            <ul>
-                <li>Tversky, A., & Kahneman, D. (1974). Judgment under Uncertainty.</li>
-                <li>Azzopardi, L. (2021). Cognitive biases in search.</li>
-                <li>Enke, B., et al. (2023). Cognitive biases: Mistakes or missing stakes.</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Week 3 (Feb 3 & 5)</h2>
-            <p><strong>Topic:</strong> Cybersecurity Framework and its Components</p>
-            <p><strong>Sub-topic:</strong> Models of Human Behavior</p>
-            <ul>
-                <li>Gonzalez, C., & Dutt, V. (2011). Instance-based learning.</li>
-                <li>Gonzalez, C. (2023). Building Human-Like Artificial Agents.</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>Week 4 (Feb 10 & 12)</h2>
-            <p><strong>Topic:</strong> Threat Actors</p>
-            <p><strong>Sub-topic:</strong> Types, Skills, Motives, Strategies</p>
-        </section>
-
-        <section>
-            <h2>Week 5 (Feb 17 & 19)</h2>
-            <p><strong>Topic:</strong> Insider Attacks</p>
-        </section>
-
-        <section>
-            <h2>Week 6 (Feb 24 & 26)</h2>
-            <p><strong>Topic:</strong> Social Engineering Attacks</p>
-            <p><strong>Sub-topic:</strong> Phishing and Spear Phishing</p>
-        </section>
-
-        <section>
-            <h2>Week 7 (Mar 3 & 5)</h2>
-            <p><strong>Topic:</strong> Social Engineering Attacks</p>
-            <p><strong>Sub-topic:</strong> Student Presentations, Experiment Design Overview</p>
-        </section>
-
-        <section>
-            <h2>Spring Break (March 10 - March 14)</h2>
-            <p>No classes</p>
-        </section>
-
-        <section>
-            <h2>Week 8 (Mar 17 & 19)</h2>
-            <p><strong>Topic:</strong> The Psychology of Cyber Deception</p>
-            <p><strong>Sub-topic:</strong> History, Tools, Techniques</p>
-        </section>
-
-        <section>
-            <h2>Week 9 (Mar 24 & 26)</h2>
-            <p><strong>Topic:</strong> Project Presentation</p>
-        </section>
-
-        <section>
-            <h2>Week 10 (Mar 31 & Apr 2)</h2>
-            <p><strong>Topic:</strong> The Tularosa Study</p>
-        </section>
-
-        <section>
-            <h2>Week 11 (Apr 7 & 9)</h2>
-            <p><strong>Topic:</strong> Game Theory and Exploitation</p>
-            <p><strong>Sub-topic:</strong> Game-theory, Behavioral game-theory</p>
-        </section>
-
-        <section>
-            <h2>Week 12 (Apr 14 & 16)</h2>
-            <p><strong>Topic:</strong> Human Factors of Cyber Defense</p>
-            <p><strong>Sub-topic:</strong> IDS, Two-player games, Attacker’s Reliance</p>
-        </section>
-
-        <section>
-            <h2>Week 13 (Apr 21 & 23)</h2>
-            <p><strong>Topic:</strong> Team-based Cyber Defense</p>
-        </section>
-
-        <section>
-            <h2>Week 14 (Apr 28 & 30)</h2>
-            <p><strong>Topic:</strong> Information Foraging</p>
-            <p><strong>Sub-topic:</strong> Information Search Theories, Cognitive Models</p>
-        </section>
-
-        <section>
-            <h2>Week 15 (May 5 & 7)</h2>
-            <p><strong>Topic:</strong> Mental Models of Attackers, Defenders, and Users</p>
-            <p><strong>Sub-topic:</strong> Final Presentations</p>
-        </section>
-    </main>
+    <h1>Spring 2025 Cybersecurity Course Schedule</h1>
+    <table>
+        <tr>
+            <th>Week</th>
+            <th>Date</th>
+            <th>Topic</th>
+            <th>Sub-topic</th>
+            <th>Readings</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Jan 22</td>
+            <td>Introduction</td>
+            <td>Syllabus, Human-Centric Cybersecurity</td>
+            <td>Pfleeger & Caputo (2012)</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Jan 27 & 29</td>
+            <td>Dynamic Decision Making</td>
+            <td>Process, Decision Making Biases</td>
+            <td>Tversky & Kahneman (1974), Azzopardi (2021), Enke et al. (2023)</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Feb 3 & 5</td>
+            <td>Cybersecurity Framework</td>
+            <td>Models of Human Behavior</td>
+            <td>Gonzalez & Dutt (2011), Gonzalez (2023)</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Feb 10 & 12</td>
+            <td>Threat Actors</td>
+            <td>Types, Skills, Motives, Strategies</td>
+            <td>Maalem Lahcen et al. (2020), Gandhi et al. (2011), Chng et al. (2022)</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Feb 17 & 19</td>
+            <td>Insider Attacks</td>
+            <td>Types & Prevention</td>
+            <td>Greitzer (2019), Costa et al. (2016), Greitzer et al. (2021)</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Feb 24 & 26</td>
+            <td>Social Engineering</td>
+            <td>Phishing and Spear Phishing</td>
+            <td>Singh et al. (2023), Rajivan & Gonzalez (2018), Curtis et al. (2018)</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Mar 3 & 5</td>
+            <td>Social Engineering Attacks</td>
+            <td>Student Presentations</td>
+            <td>Experiment Design Overview</td>
+        </tr>
+        <tr>
+            <td colspan="5" style="text-align:center; font-weight: bold;">Spring Break (March 10 - 14)</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Mar 17 & 19</td>
+            <td>Cyber Deception</td>
+            <td>History, Tools, Techniques</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>Mar 24 & 26</td>
+            <td>Project Presentation</td>
+            <td>-</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>Mar 31 & Apr 2</td>
+            <td>The Tularosa Study</td>
+            <td>Case Study</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>Apr 7 & 9</td>
+            <td>Game Theory</td>
+            <td>Behavioral Game Theory</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td>Apr 14 & 16</td>
+            <td>Cyber Defense</td>
+            <td>Intrusion Detection Systems (IDS)</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>Apr 21 & 23</td>
+            <td>Team-Based Cyber Defense</td>
+            <td>Challenges & Human-Machine Teaming</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>14</td>
+            <td>Apr 28 & 30</td>
+            <td>Information Foraging</td>
+            <td>Search Theories, Cognitive Models</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td>15</td>
+            <td>May 5 & 7</td>
+            <td>Mental Models</td>
+            <td>Attackers, Defenders, Users</td>
+            <td>Final Presentations</td>
+        </tr>
+    </table>
 
     <footer>
-        <p>&copy; 2025 Spring Cybersecurity Course</p>
+        &copy; 2025 Spring Cybersecurity Course
     </footer>
+
 </body>
 </html>
